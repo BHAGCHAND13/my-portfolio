@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhagchand Dhavale | Web Developer</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Bhagchand</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container" id="home">
+    <div class="profile-section">
+      <img src="WhatsApp Image 2025-04-29 at 8.35.32 PM.jpeg" alt="Bhagchand Dhavale" class="profile-img">
+      <div class="intro-text">
+        <h1>Bhagchand Madhukar Dhavale</h1>
+        <h2>Web Developer</h2>
+      </div>
+    </div>
+
+    <section id="about">
+      <h3>About Me</h3>
+      <p>Hi! I'm Bhagchand, a second-year BCA student passionate about web development. I have strong expertise in HTML, CSS, JavaScript, and am currently learning React. My role model is Mahakal 🙏, and I believe in continuous learning to craft amazing web solutions.</p>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React (Learning)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <ul>
+        <li>Tic-Tac-Toe Game</li>
+        <li>Calculator</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contact Me</h3>
+      <p>Email: <a href="mailto:dhavalebhagchand21@gmail.com">dhavalebhagchand21@gmail.com</a></p>
+      <p>Phone: 9699145375</p>
+      <p>GitHub: <a href="https://github.com/BHAGCHAND13" target="_blank">BHAGCHAND13</a></p>
+
+      <h4>Send a Message</h4>
+      <form onsubmit="event.preventDefault(); alert('Message sent! (not stored - no backend yet)');">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="password" name="password" placeholder="Create Password" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+</body>
+</html>
